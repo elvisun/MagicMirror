@@ -12,6 +12,21 @@ var config = {
 	
 	modules: [
 		{
+			module: 'email',
+	            position: 'bottom_left',
+	            header: 'Email',
+	            config:{
+	                user: 'elvissunlihe@gmail.com',
+	                password: '123',
+	                host: 'imap.gmail.com',
+	                port: 993,
+	                tls: true,
+	                authTimeout: 10000,
+	                numberOfEmails: 5,
+	                fade: true,
+			maxCharacters: 30
+        },
+		{
 			module: 'alert',
 		},
 		{
